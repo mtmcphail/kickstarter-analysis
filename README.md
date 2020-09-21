@@ -52,7 +52,7 @@ As per instructions, campaigns with goals of exactly $50,000 were not included i
 
 ## Results
 
-###**Outcomes Based on Launch Dates**
+###Outcomes Based on Launch Dates
 
 Based on the above analysis involving **launch date**, it is clear that not only is **May** a very popular month to launch campaigns (highest total campaigns launched), but yeilds the highest percentage of "Successful" campaigns (67% of campaigns launched are "Successful").
 
@@ -63,7 +63,7 @@ Louise launched her kickstart campaign in June, which yielded the second highest
 *Louise did not pick the wrong month to launch her campaign.* 
 
 
-###**Outcomes Based on Goal Amount**
+###Outcomes Based on Goal Amount
 
 Regarding outcomes based on goals, campaigns with goals **less than $1,000** has the highest rate of success, 76%.
 
@@ -75,7 +75,7 @@ Louise's goal for *FEVER* was $2,885; and similar to the launch month, this goal
 
 *Louise did not pick the wrong goal.*
 
-##**Limitations of the Dataset**
+##Limitations of the Dataset
 While the dataset is a well-rounded collection of campaign data involving different genres of projects, different geographies, launch dates, campaign lengths, and fundraising targets, one data point missing is the number of contacts the ask was sent to, a participation rate.  
 
 By collecting the number of potential donors the fundraising ask was sent to and comparing to actual number of backers, the rate of participation can be calculated (or at least estimated).  This data point may provide insight into a how the campaign is promoted and launched.
@@ -84,7 +84,7 @@ In addition, collecting data on how many times potential donors are contacted ("
 
 Finally, the data set does not include data on how the campaign was communicated (social media, email, text) nor how many channels. 
 
-##**Next Steps**
+##Next Steps
 
 Since it appears that Louise launched her campaign in a "successful" month and set an attainable goal, similar to other campaigns that were fully funded, *what was the cause of her shortfall?*
 
