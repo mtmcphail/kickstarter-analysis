@@ -30,10 +30,10 @@ Data from over 1,000 crowdfunding campaigns supporting "Plays" was analyzed to g
 Again using Excel, the "Goal" field was grouped into the following 12 categories using the COUNTIFS function and charted based on "Outcomes" (Successful, Failed, Canceled).  The percentage of total campaigns in each category was calculated using simple division.  Please see Graph 2 and Chart 2 below.
 
 
-**<span style="color:green">Graph 2: "Play" Campaign Outcomes Based on Goal Amount</span>** 
+**<span style="color:green">Graph 2: "Plays" Campaign Outcomes Based on Goal Amount</span>** 
 ![Goal Graph](./Resources/Outcomes_Vs_Goals.png)
 
-**<span style="color:green">Chart 2: "Play" Campaign Outcomes Based on Goal Amount</span>**
+**<span style="color:green">Chart 2: "Plays" Campaign Outcomes Based on Goal Amount</span>**
 ![Goal Chart](./Resources/Chart_Goals.png)
 
  
