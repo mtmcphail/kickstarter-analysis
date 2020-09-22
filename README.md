@@ -61,7 +61,7 @@ Louise launched her kickstart campaign in June, which yielded the second-highest
   
 ### Outcomes Based on Goal Amount
 
-Regarding outcomes based on goals, campaigns with goals of **less than $1,000** have the highest rate of success, 76%.
+Graph 2 and Chart 2 indicates that campaigns with **goals** of **less than $1,000** have the highest rate of success, 76%.
 
 Meanwhile, the goal range of **$45,000 - $49,999** had the fewest number of campaigns (1) and the lowest success rate of 0%.
 
@@ -97,19 +97,20 @@ Looking at other factors included in this original data set, like the number of 
 **<span style="color:green">Chart 3: "Plays" Campaign Outcomes Based on Duration (Days)</span>**
 ![Duration Chart](./Resources/Chart_Duration.png)
 
-Based on this quick analysis, it appears that the 1 month range (28 - 31 days) is the most common duration with the highest number of successes, but also the highest number of failures.
+Based on this quick analysis, it appears that the 1 month range (28 - 31 days) is the most common duration with the highest number of successes, but also the highest number of failures.  
+
 
 **Outcome Based on Number of Backers**:  
 <span style="color:red"> *Did Louise not have enough donor base to support her goal?* </span>
- Similiar to the Outcome Based on Duration of Campaign chart, the number of backers can be summarized by specified ranges and plotted against outcomes (Successful, Failed, Canceled).
-
+ Similiar to the Outcome Based on Duration of Campaign chart, the number of backers can be summarized by specified ranges and plotted against outcomes (Successful, Failed, Canceled).  
+ 
   
     
 **<span style="color:green">Graph 4: "Plays" Campaign Outcomes Based on Number of Backers</span>**
 ![Backers Graph](./Resources/Outcomes_Based_on_Backers.png)
 
 **<span style="color:green">Chart 4: "Plays" Campaign Outcomes Based on Number of Backers</span>**
-![Backers Chart](./Resources/Chart_Backers.png)
+![Backers Chart](./Resources/Chart_Backers.png)   
 
 Based on this quick analysis, it appears that the fail rate is highest with 0-25 backers; Louise only had 10.
 
