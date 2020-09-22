@@ -20,7 +20,7 @@ By utilizing simple Excel formulas to convert the Unix timestamp for launch date
 
 
 **<span style="color:green">Chart 1: "Theater" Campaign Outcomes Based on Launch Date</span>**
-![Launch Chart](./Resources/Chart Launch Date.png)
+![Launch Chart](./Resources/Chart_Launch_Date.png)
 
 
 ### Analysis of Campaign Outcomes Based on Goals
@@ -34,7 +34,7 @@ Again using Excel, the "Goal" field was grouped into the following 12 categories
 ![Goal Graph](./Resources/Outcomes_Vs_Goals.png)
 
 **<span style="color:green">Chart 2: "Play" Campaign Outcomes Based on Goal Amount</span>**
-![Goal Chart](./Resources/Chart Goals.png)
+![Goal Chart](./Resources/Chart_Goals.png)
 
  
 
@@ -59,7 +59,7 @@ Louise launched her kickstart campaign in June, which yielded the second-highest
 *Louise did not pick the wrong month to launch her campaign.* 
 
   
-###Outcomes Based on Goal Amount
+### Outcomes Based on Goal Amount
 
 Regarding outcomes based on goals, campaigns with goals of **less than $1,000** have the highest rate of success, 76%.
 
@@ -92,10 +92,10 @@ Looking at other factors included in this original data set, like the number of 
 <span style="color:red"> *Was Louise's campaign too short?* </span>  Still working in Excel, a new data point, "Campaign Duration", can be calculated by subtracting the "Date Created Conversion" from the "Date Ended Conversion" and rounding to the nearest whole number (=round([Date Ended]-[Date Created],0). Number of Day ranges can be determined; and with the help of COUNTIFS function, the "Campaign Duration" can be grouped based on "Outcome".
 
 **<span style="color:green">Graph 3: "Plays" Campaign Outcomes Based on Duration (Days)</span>**
-![Duration Graph](./Resources/Outcomes Based on Duration.png)
+![Duration Graph](./Resources/Outcomes_Based_on_Duration.png)
 
 **<span style="color:green">Chart 3: "Plays" Campaign Outcomes Based on Duration (Days)</span>**
-![Duration Chart](./Resources/Chart Duration.png)
+![Duration Chart](./Resources/Chart_Duration.png)
 
 Based on this quick analysis, it appears that the 1 month range (28 - 31 days) is the most common duration with the highest number of successes, but also the highest number of failures.
 
@@ -106,10 +106,10 @@ Based on this quick analysis, it appears that the 1 month range (28 - 31 days) i
   
     
 **<span style="color:green">Graph 4: "Plays" Campaign Outcomes Based on Number of Backers</span>**
-![Backers Graph](./Resources/Outcomes Based on Backers.png)
+![Backers Graph](./Resources/Outcomes_Based_on_Backers.png)
 
 **<span style="color:green">Chart 4: "Plays" Campaign Outcomes Based on Number of Backers</span>**
-![Backers Chart](./Resources/Chart Backers.png)
+![Backers Chart](./Resources/Chart_Backers.png)
 
 Based on this quick analysis, it appears that the fail rate is highest with 0-25 backers; Louise only had 10.
 
