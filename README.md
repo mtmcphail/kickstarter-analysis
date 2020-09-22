@@ -48,7 +48,7 @@ There are some minor items to note that caused further inspection of the dataset
 
 ## <span style="color:green">Results</span>  
 
-###Outcomes Based on Launch Dates  
+### Outcomes Based on Launch Dates
 
 Based on the above analysis involving **launch date**, it is clear that not only is **May** a very popular month to launch campaigns (highest total campaigns launched) but yields the highest percentage of "Successful" campaigns (67% of campaigns launched are "Successful").
 
@@ -71,7 +71,7 @@ Louise's goal for *FEVER* was $2,885; and similar to the launch month, this goal
 
 *Louise did not set the wrong goal.*
 
-## <span style="color:green">Limitations of the Dataset</span>
+### Limitations of the Dataset  
 
 While the dataset is a well-rounded collection of campaign data involving different genres of projects, different geographies, launch dates, campaign lengths, and fundraising targets, one data point missing is the number of contacts the donation ask was sent to: a participation or conversion rate.  
 
@@ -82,7 +82,7 @@ In addition, collecting data on how many times potential donors are contacted ("
 Finally, the data set does not include data on how the campaign was communicated out (via social media, email, or text) nor how many channels (single or multi). 
 
 
-## <span style="color:green">Next Steps</span>
+### Next Steps
 
 Since it appears that Louise launched her campaign in a "successful" month and set an attainable goal, similar to other campaigns that were fully funded, *what was the cause of her shortfall?*
 
@@ -103,7 +103,8 @@ Based on this quick analysis, it appears that the 1 month range (28 - 31 days) i
 <span style="color:red"> *Did Louise not have enough donor base to support her goal?* </span>
  Similiar to the Outcome Based on Duration of Campaign chart, the number of backers can be summarized by specified ranges and plotted against outcomes (Successful, Failed, Canceled).
 
-
+  
+    
 **<span style="color:green">Graph 4: "Plays" Campaign Outcomes Based on Number of Backers</span>**
 ![Backers Graph](./Resources/Outcomes Based on Backers.png)
 
