@@ -47,7 +47,8 @@ There are some minor items to note that caused further inspection of the dataset
   
 
 ## <span style="color:green">Results</span>  
-###Outcomes Based on Launch Dates
+
+###Outcomes Based on Launch Dates  
 
 Based on the above analysis involving **launch date**, it is clear that not only is **May** a very popular month to launch campaigns (highest total campaigns launched) but yields the highest percentage of "Successful" campaigns (67% of campaigns launched are "Successful").
 
