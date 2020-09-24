@@ -1,6 +1,6 @@
 ![kickstarter logo](./Resources/kickstarter.png)
 
-# **<span style="color:green"> Kickstarter Crowdfunding Analysis </span>**
+# **Kickstarter Crowdfunding Analysis**
 ## <span style="color:green"> Overview </span>
 
 ### Purpose
@@ -20,8 +20,8 @@ Utilizing simple Excel formulas, the Unix timestamp for the launch date (launche
  followed by a second conversion of the launch date (Date Created Conversion) to a year format (Years) ```=YEAR(S2)```.  The Parent Category ("Theater") and the Years fields are used as filters for a Pivot Table summarizing Outcomes (Successful, Failed, and Canceled) by Launch Month.  
  
 Finally, the percentage of total campaigns that were "successful" was calculated using simple division to get insight into a simple success rate by month and apended to the Pivot Table.  
-Please see Graph 1 and Chart 1 below.
-
+Please see Graph 1 and Chart 1 below.  
+    
 **<span style="color:green">Graph 1: "Theater" Campaign Outcomes Based on Launch Date</span>**
 ![Launch Graph](./Resources/Theater_Outcomes_Vs_Launch.png)
 
@@ -35,8 +35,9 @@ Please see Graph 1 and Chart 1 below.
 Data from over 1,000 crowdfunding campaigns supporting "Plays" was analyzed to gain insight into whether these specific campaigns have a higher success rate at certain goals levels.  
 
 Again using Excel, the "Goal" field was grouped into the following 12 categories or bins using the COUNTIFS function ```=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,"<1000",Kickstarter!$P:$P,"plays")``` and then charted based on "Outcomes" (Successful, Failed, Canceled).  The percentage of total campaigns ```=SUM(C3:E3)``` in each category was calculated using simple division ```=C3/F3```.  Please see Graph 2 and Chart 2 below.  
-
-
+  
+  
+      
 **<span style="color:green">Graph 2: "Plays" Campaign Outcomes Based on Goal Amount</span>** 
 ![Goal Graph](./Resources/Outcomes_Vs_Goals.png)
 
@@ -61,20 +62,16 @@ Based on the above analysis involving **launch date**, it is clear that not only
 
 Conversely, **December** has the fewest campaigns launched (75) and also has the lowest success rate of 49%.
 
-Louise launched her Kickstart campaign in June, which yielded the second-highest number of successful outcomes and the second-highest percentage of successful outcomes (65%).
-
-*Louise did not pick the wrong month to launch her campaign.* 
+Louise launched her Kickstart campaign in June, which yielded the second-highest number of successful outcomes and the second-highest percentage of successful outcomes (65%). Simply put, <mark style="background-color: Yellow">Louise did not pick the wrong month to launch.</mark> 
 
   
 ### Outcomes Based on Goal Amount
 
-Graph 2 and Chart 2 indicates that campaigns with **goals** of **less than $1,000** have the highest rate of success, 76%.  Meanwhile, the goal range of **$45,000 - $49,999** had the fewest number of campaigns (1) and the lowest success rate of 0%.
+Graph 2 and Chart 2 indicate that campaigns with **goals** of **less than $1,000** have the highest rate of success, 76%.  Meanwhile, the goal range of **$45,000 - $49,999** had the fewest number of campaigns (1) and the lowest success rate of 0%.
 
 Furthermore, as the goal amount increases its rate of success decreases, until the $30,000 range.  At which point the success rebounds, but then crashes back down at the $45,000+ range. 
 
-Louise's goal for *FEVER* was $2,885; and similar to the launch month, this goal range, **$1,000 - $4,999** reported the second-highest success rate (73%).  
-
-*Louise did not set the wrong goal.*  
+Louise's goal for *FEVER* was $2,885; and similar to the launch month, this goal range, **$1,000 - $4,999** reported the second-highest success rate (73%).  This range was also the most popular representing 51% of the all "play" campaigns in this dataset (534 of 1,043). Simply put, <mark style="background-color: Yellow">Louise did not set the bad goal.</mark> 
 
 
 ### Limitations of the Dataset  
@@ -83,9 +80,7 @@ While the dataset is a well-rounded collection of campaign data involving differ
 
 By collecting the **number of potential donors (i.e. reach)** the donation ask was sent to and comparing to actual number of backers, the rate of participation can be calculated (or at least estimated). *Does a succssful campaign have a certain participation percentage a fundraiser should target?*
 
-In addition, collecting data on how many times potential donors are contacted (i.e. **frequency of the ask**) during the length of the campaign would be helpful.  The frequency of communication can also provide insight into what makes a successful crowdfunding campaign. 
-
-Finally, the data set does not include data on how the campaign was communicated out (via social media, email, or text) nor how many channels (single or multi). 
+In addition, collecting data on how many times potential donors are contacted (i.e. **frequency of the ask**) during the length of the campaign would be helpful.  Finally, the data set does not include data on how the campaign was communicated out (via social media, email, or text) nor how many channels (single or multi).  
 
 
 ### Next Steps
@@ -94,8 +89,8 @@ Since it appears that Louise launched her campaign in a "successful" month and s
 
 Looking at other factors included in this original data set, like the number of backers or campaign duration for similar campaigns, may give Louise better insight into what went wrong.  
   
-**Outcome Based on Duration of Campaign**:  
-<span style="color:red"> *Was Louise's campaign too short?* </span>  Still working in Excel and still looking at kickstarters involving plays, a new data point, "Campaign Duration", can be calculated by subtracting the "Date Created Conversion" from the "Date Ended Conversion" and rounding to the nearest whole number ```=ROUND(T2-S2,0)```. With the help of COUNTIFS function, ```=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$V:$V,"<30",Kickstarter!$P:$P,"plays")``` and the "Campaign Duration" can be grouped based on "Outcome". For this simple exercise, the ```=MODE()``` function was used to determine 3 basic bins.  Please see Graph 3 and Chart 3 below.
+**Outcome Based on Duration of Campaign**:   
+*Was Louise's campaign too short?*  Still working in Excel and still looking at kickstarters involving plays, a new data point, "Campaign Duration", can be calculated by subtracting the "Date Created Conversion" from the "Date Ended Conversion" and rounding to the nearest whole number ```=ROUND(T2-S2,0)```. With the help of COUNTIFS function, ```=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$V:$V,"<30",Kickstarter!$P:$P,"plays")``` and the "Campaign Duration" can be grouped based on "Outcome". For this simple exercise, the ```=MODE()``` function was used to determine 3 basic bins.  Please see Graph 3 and Chart 3 below.
 
 **<span style="color:green"> Graph 3: "Plays" Campaign Outcomes Based on Duration (Days) </span>**
 ![Duration Graph](./Resources/Outcomes_Vs_Duration.png)
@@ -107,9 +102,8 @@ Based on this quick analysis, while it appears that the **30 day** bin is the mo
 
 Louise's FEVER campaign was 28 days and this quick analysis confirms she picked an effective campaign duration. 
 
-**Outcome Based on Number of Backers**:  
-*Did Louise not have enough donor base to support her goal?*   
-Similiar to the Outcome Based on Duration of Campaign chart, the number of backers can be summarized by specified ranges and plotted against outcomes (Successful, Failed, Canceled).  
+**Outcome Based on Number of Backers**:   
+*Did Louise not have enough donor base to support her goal?* Similiar to the Outcome Based on Duration of Campaign chart, the number of backers can be summarized by specified ranges and plotted against outcomes (Successful, Failed, Canceled).  
  
   
     
