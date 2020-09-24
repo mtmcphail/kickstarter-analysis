@@ -62,7 +62,7 @@ Based on the above analysis involving **launch date**, it is clear that not only
 
 Conversely, **December** has the fewest campaigns launched (75) and also has the lowest success rate of 49%.
 
-Louise launched her Kickstart campaign in June, which yielded the second-highest number of successful outcomes and the second-highest percentage of successful outcomes (65%). Simply put, <mark style="background-color: Yellow">Louise did not pick the wrong month to launch.</mark> 
+Louise launched her Kickstart campaign in June, which yielded the second-highest number of successful outcomes and the second-highest percentage of successful outcomes (65%). Simply put, <mark style="background-color: Yellow">*Louise did not pick the wrong month to launch*.</mark> 
 
   
 ### Outcomes Based on Goal Amount
@@ -71,7 +71,7 @@ Graph 2 and Chart 2 indicate that campaigns with **goals** of **less than $1,000
 
 Furthermore, as the goal amount increases its rate of success decreases, until the $30,000 range.  At which point the success rebounds, but then crashes back down at the $45,000+ range. 
 
-Louise's goal for *FEVER* was $2,885; and similar to the launch month, this goal range, **$1,000 - $4,999** reported the second-highest success rate (73%).  This range was also the most popular representing 51% of the all "play" campaigns in this dataset (534 of 1,043). Simply put, <mark style="background-color: Yellow">Louise did not set the bad goal.</mark> 
+Louise's goal for *FEVER* was $2,885; and similar to the launch month, this goal range, **$1,000 - $4,999** reported the second-highest success rate (73%).  This range was also the most popular representing 51% of the all "play" campaigns in this dataset (534 of 1,043). Simply put, <mark style="background-color: Yellow">*Louise did not set a bad goal*.</mark> 
 
 
 ### Limitations of the Dataset  
@@ -90,7 +90,7 @@ Since it appears that Louise launched her campaign in a "successful" month and s
 Looking at other factors included in this original data set, like the number of backers or campaign duration for similar campaigns, may give Louise better insight into what went wrong.  
   
 **Outcome Based on Duration of Campaign**:   
-*Was Louise's campaign too short?*  Still working in Excel and still looking at kickstarters involving plays, a new data point, "Campaign Duration", can be calculated by subtracting the "Date Created Conversion" from the "Date Ended Conversion" and rounding to the nearest whole number ```=ROUND(T2-S2,0)```. With the help of COUNTIFS function, ```=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$V:$V,"<30",Kickstarter!$P:$P,"plays")``` and the "Campaign Duration" can be grouped based on "Outcome". For this simple exercise, the ```=MODE()``` function was used to determine 3 basic bins.  Please see Graph 3 and Chart 3 below.
+*Was Louise's campaign too short?*  Still working in Excel and still looking at kickstarters involving plays, a new data point, "Campaign Duration", can be calculated by subtracting the "Date Created Conversion" from the "Date Ended Conversion" rounding to the nearest ones ```=ROUND(T2-S2,0)```. With the help of the COUNTIFS function, ```=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$V:$V,"<30",Kickstarter!$P:$P,"plays")``` , the "Campaign Duration" for each Outcome ("Successful", "Failed, Canceled") can be grouped based on bins: "Less than 30", "30" and "Greater than 30". For this simple exercise, the ```=MODE()``` function was used to determine the 3 basic bins.  Please see Graph 3 and Chart 3 below.
 
 **<span style="color:green"> Graph 3: "Plays" Campaign Outcomes Based on Duration (Days) </span>**
 ![Duration Graph](./Resources/Outcomes_Vs_Duration.png)
@@ -98,7 +98,7 @@ Looking at other factors included in this original data set, like the number of 
 **<span style="color:green"> Chart 3: "Plays" Campaign Outcomes Based on Duration (Days) </span>**
 ![Duration Chart](./Resources/Chart_Duration.png)
 
-Based on this quick analysis, while it appears that the **30 day** bin is the most popular (highest total campaigns), the **less than 30** day bin has highest number of successful campaigns and the highest success rate (76%).  
+Based on this quick analysis, while it appears that the **30 day** bin is the most popular (highest total campaigns), the **less than 30** day bin has highest number of successful campaigns and the highest success rate (76%).  Furthermore, at this level of analysis, the relationship appears to be negatively correlated: the longer the campaign, the lower the success rate. 
 
 Louise's FEVER campaign was 28 days and this quick analysis confirms she picked an effective campaign duration. 
 
