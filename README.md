@@ -1,7 +1,7 @@
 ![kickstarter logo](./Resources/kickstarter.png)
 
 # **<span style="color:green">Kickstarter Crowdfunding Analysis</span>**
-## <span style="color:green">Overview</span>
+## <span style="color:green"> Overview </span>
 
 ### Purpose
 Louise, a promising new playwright, launched a Kickstarter campaign to finance her new play, *_FEVER_*.  While Louise raised funds quickly (28 days), she fell short of her goal (86% funded).
@@ -13,7 +13,9 @@ Now, Louise would like to understand how well other, similar campaigns did to ga
 ### Analysis of Campaign Outcomes Based on Launch Date
 Crowdfunding data from over 1,300 campaigns supporting a variety of Theater projects was used to ascertain if any month(s) in particular yielded a higher percentage of successful outcomes.
 
-By utilizing simple Excel formulas to convert the Unix timestamp for launch date to a traditional date format, was followed by a second conversion of the launch date (Date Created Conversion) to a year format (Years).  The Parent Category (Theater) and the Years fields are used as filters for a Pivot Table summarizing Outcomes (Successful, Failed, and Canceled) by Launch Month.  Please see Graph 1 and Chart 1 below.
+Utilizing simple Excel formulas, the Unix timestamp for launch date to a traditional date format
+```=(((J2/60)/60)/24)+DATE(1970,1,1)```
+ then followed by a second conversion of the launch date (Date Created Conversion) to a year format (Years) ```=YEAR(S2)```.  The Parent Category (Theater) and the Years fields are used as filters for a Pivot Table summarizing Outcomes (Successful, Failed, and Canceled) by Launch Month.  Please see Graph 1 and Chart 1 below.
 
 **<span style="color:green">Graph 1: "Theater" Campaign Outcomes Based on Launch Date</span>**
 ![Launch Graph](./Resources/Theater_Outcomes_Vs_Launch.png)
@@ -101,7 +103,8 @@ Based on this quick analysis, it appears that the 1 month range (28 - 31 days) i
 
 
 **Outcome Based on Number of Backers**:  
-<span style="color:red"> *Did Louise not have enough donor base to support her goal?* </span>
+<span style="color:red"> *Did Louise not have enough donor base to support her goal?* </span>  
+
  Similiar to the Outcome Based on Duration of Campaign chart, the number of backers can be summarized by specified ranges and plotted against outcomes (Successful, Failed, Canceled).  
  
   
@@ -114,4 +117,4 @@ Based on this quick analysis, it appears that the 1 month range (28 - 31 days) i
 
 Based on this quick analysis, it appears that the fail rate is highest with 0-25 backers; Louise only had 10.
 
-While furter investigation is clearly needed, it appears that while Louise may have launched her campaign in an appropriate month and set an appropriate goal and duration of campaign, it fell short on number of backers.  Why this ocurred requires additional data outside the scope of this dataset. 
+Clearly furter investigation is needed; it appears that Louise may have launched her campaign in an appropriate month and set an appropriate goal and duration of campaign, it fell short on number of backers.  Why this ocurred requires additional data outside the scope of this dataset. 
