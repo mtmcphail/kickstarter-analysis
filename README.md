@@ -8,7 +8,7 @@ Louise, a promising new playwright, launched a Kickstarter campaign to finance h
 
 Now, Louise would like to understand how well other, similar campaigns did to gain insight into why her campaign was not fully funded.
 
-## <span style="color:green">Analysis and Challenges</span>
+## <span style="color:green"> Analysis and Challenges </span>
 
 ### Analysis of Campaign Outcomes Based on Launch Date
 Crowdfunding data from over 1,300 campaigns supporting a variety of Theater projects was used to ascertain if any month(s) in particular yielded a higher percentage of successful outcomes.
