@@ -15,11 +15,11 @@ With the use of Kickstarter data, which includes 4,114 campaigns (1,369 in the a
 ### Analysis of Campaign Outcomes Based on Launch Date
 Crowdfunding data from over 1,300 campaigns supporting a variety of Theater projects was used to ascertain if any month(s) in particular yielded a higher percentage of successful outcomes.
 
-Utilizing simple Excel formulas, the Unix timestamp for the launch date (launched_at) was converted to a traditional date format
+Utilizing simple Excel formulas, the Unix timestamp for the launch date ("launched_at") was converted to a traditional date format
 ```=(((J2/60)/60)/24)+DATE(1970,1,1)```
- followed by a second conversion of the launch date (Date Created Conversion) to a year format (Years) ```=YEAR(S2)```.  The Parent Category ("Theater") and the Years fields are used as filters for a Pivot Table summarizing Outcomes (Successful, Failed, and Canceled) by Launch Month.  
+ followed by a second conversion of the launch date [Date Created Conversion] to a year format [Years] ```=YEAR(S2)```.  The Parent Category ("Theater") and the Years fields are used as filters for a Pivot Table summarizing Outcomes (Successful, Failed, and Canceled) by Launch Month.  
  
-Finally, the percentage of total campaigns that were "successful" was calculated using simple division to get insight into a simple success rate by month and apended to the Pivot Table.  
+Finally, the percentage of total campaigns that were "successful" is calculated using simple division to get insight into a simple success rate by month and apended to the Pivot Table.  
 Please see Graph 1 and Chart 1 below.  
     
 **<span style="color:green">Graph 1: "Theater" Campaign Outcomes Based on Launch Date</span>**
@@ -34,7 +34,7 @@ Please see Graph 1 and Chart 1 below.
 
 Data from over 1,000 crowdfunding campaigns supporting "Plays" was analyzed to gain insight into whether these specific campaigns have a higher success rate at certain goals levels.  
 
-Again using Excel, the "Goal" field was grouped into the following 12 categories or bins using the COUNTIFS function ```=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,"<1000",Kickstarter!$P:$P,"plays")``` and then charted based on "Outcomes" (Successful, Failed, Canceled).  The percentage of total campaigns ```=SUM(C3:E3)``` in each category was calculated using simple division ```=C3/F3```.  Please see Graph 2 and Chart 2 below.  
+Again using Excel, the Goal field was grouped into the following 12 categories or bins using the COUNTIFS function ```=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,"<1000",Kickstarter!$P:$P,"plays")``` and then charted based on Outcomes ("Successful", "Failed", "Canceled").  The percentage of total campaigns ```=SUM(C3:E3)``` in each category was calculated using simple division ```=C3/F3```.  Please see Graph 2 and Chart 2 below.  
   
   
       
@@ -58,11 +58,11 @@ There are some minor items to note that caused further inspection of the dataset
 
 ### Outcomes Based on Launch Dates
 
-Based on the above analysis involving **launch date**, it is clear that not only is **May** a very popular month to launch campaigns (highest total campaigns launched) but yields the highest percentage of "Successful" campaigns (67% of campaigns launched are "Successful").
+Based on the above analysis involving **launch date**, it is clear that not only is **May** a very popular month to launch campaigns (highest total campaigns launched) but yields the highest percentage of "Successful" campaigns (67% of campaigns launched are "Successful" or fully funded).
 
 Conversely, **December** has the fewest campaigns launched (75) and also has the lowest success rate of 49%.
 
-Louise launched her Kickstart campaign in June, which yielded the second-highest number of successful outcomes and the second-highest percentage of successful outcomes (65%). Simply put, <mark style="background-color: Yellow">*Louise did not pick the wrong month to launch*.</mark> 
+Louise launched her Kickstart campaign in June, which yielded the second-highest number of successful outcomes and the second-highest percentage of successful outcomes (65%). Simply put, <mark style="background-color: Yellow">*Louise did not pick a bad month to launch*.</mark> 
 
   
 ### Outcomes Based on Goal Amount
