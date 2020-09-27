@@ -16,8 +16,7 @@ With the use of Kickstarter data, which includes 4,114 campaigns (1,369 in the a
 Crowdfunding data from over 1,300 campaigns supporting a variety of Theater projects was used to ascertain if any month(s) in particular yielded a higher percentage of successful outcomes.
 
 Utilizing simple Excel formulas, the Unix timestamp for the launch date ("launched_at") was converted to a traditional date format
-```=(((J2/60)/60)/24)+DATE(1970,1,1)```
- followed by a second conversion of the launch date [Date Created Conversion] to a year format [Years] ```=YEAR(S2)```.  The Parent Category ("Theater") and the Years fields are used as filters for a Pivot Table summarizing Outcomes (Successful, Failed, and Canceled) by Launch Month.  
+```=(((J2/60)/60)/24)+DATE(1970,1,1)``` followed by a second conversion of the launch date [Date Created Conversion] to a year format [Years] ```=YEAR(S2)```.  The Parent Category ("Theater") and the Years fields are used as filters for a Pivot Table summarizing Outcomes (Successful, Failed, and Canceled) by Launch Month.  
  
 Finally, the percentage of total campaigns that were "successful" is calculated using simple division to get insight into a simple success rate by month and apended to the Pivot Table.  
 Please see Graph 1 and Chart 1 below.  
@@ -26,7 +25,7 @@ Please see Graph 1 and Chart 1 below.
 ![Launch Graph](./Resources/Theater_Outcomes_Vs_Launch.png)
 
 
-**<span style="color:green">Chart 1: "Theater" Campaign Outcomes Based on Launch Date</span>**
+**<span style="color:green">Chart 1: "Theater" Campaign Outcomes Based on Launch Date</span>**  
 ![Launch Chart](./Resources/Chart_Launch_Date.png)
 
 
@@ -34,7 +33,9 @@ Please see Graph 1 and Chart 1 below.
 
 Data from over 1,000 crowdfunding campaigns supporting "Plays" was analyzed to gain insight into whether these specific campaigns have a higher success rate at certain goals levels.  
 
-Again using Excel, the Goal field was grouped into the following 12 categories or bins using the COUNTIFS function ```=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,"<1000",Kickstarter!$P:$P,"plays")``` and then charted based on Outcomes ("Successful", "Failed", "Canceled").  The percentage of total campaigns ```=SUM(C3:E3)``` in each category was calculated using simple division ```=C3/F3```.  Please see Graph 2 and Chart 2 below.  
+Again using Excel, the Goal field was grouped into the following 12 categories or bins using the COUNTIFS function  
+```=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,"<1000",Kickstarter!$P:$P,"plays")```  
+and then charted based on Outcomes ("Successful", "Failed", "Canceled").  The percentage of total campaigns ```=SUM(C3:E3)``` in each category was calculated using simple division ```=C3/F3```.  Please see Graph 2 and Chart 2 below.  
   
   
       
@@ -87,7 +88,7 @@ In addition, collecting data on how many times potential donors are contacted (i
 
 Since it appears that Louise launched her campaign in a "successful" month and set an attainable goal, similar to other "Theater" and "Play" campaigns that were fully funded, *what was the cause of her shortfall?*
 
-Looking at other factors included in this original data set, like the number of backers or campaign duration for similar campaigns, may give Louise better insight into what went wrong.  
+Looking at other factors included in this original data set, like the number of backers or duration for similar campaigns, may give Louise better insight into what went wrong.  
   
 **Outcome Based on Duration of Campaign**:   
 *Was Louise's campaign too short?*  Still working in Excel and still looking at kickstarters involving plays, a new data point, "Campaign Duration", can be calculated by subtracting the "Date Created Conversion" from the "Date Ended Conversion" rounding to the nearest ones ```=ROUND(T2-S2,0)```. With the help of the COUNTIFS function, ```=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$V:$V,"<30",Kickstarter!$P:$P,"plays")``` , the "Campaign Duration" for each Outcome ("Successful", "Failed, Canceled") can be grouped based on bins: "Less than 30", "30" and "Greater than 30". For this simple exercise, the ```=MODE()``` function was used to determine the 3 basic bins.  Please see Graph 3 and Chart 3 below.
@@ -107,10 +108,10 @@ Louise's FEVER campaign was 28 days and this quick analysis confirms she picked 
  
   
     
-**<span style="color:green">Graph 4: "Plays" Campaign Outcomes Based on Number of Backers</span>**
+**<span style="color:green">Graph 4: "Plays" Campaign Outcomes Based on Number of Backers</span>**  
 ![Backers Graph](./Resources/Outcomes_Vs_Backers.png)
 
-**<span style="color:green">Chart 4: "Plays" Campaign Outcomes Based on Number of Backers</span>**
+**<span style="color:green">Chart 4: "Plays" Campaign Outcomes Based on Number of Backers</span>**  
 ![Backers Chart](./Resources/Chart_Backers.png)   
 
 Based on this quick analysis, it appears that the **fail rate** is highest with **0-25 backers**; Louise only had 10.
