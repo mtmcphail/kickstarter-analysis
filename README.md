@@ -63,7 +63,7 @@ Based on the above analysis involving **launch date**, it is clear that not only
 
 Conversely, **December** has the fewest campaigns launched (75) and also has the lowest success rate of 49%.
 
-Louise launched her Kickstart campaign in June, which yielded the second-highest number of successful outcomes and the second-highest percentage of successful outcomes (65%). Simply put, <mark style="background-color: Yellow">*Louise did not pick a bad month to launch*.</mark> 
+Louise launched her Kickstart campaign in June, which yielded the second-highest number of successful outcomes and the second-highest percentage of successful outcomes (65%). Simply put, <mark style="background-color: Yellow">***Louise did not pick a bad month to launch***.</mark> 
 
   
 ### Outcomes Based on Goal Amount
@@ -72,7 +72,7 @@ Graph 2 and Chart 2 indicate that campaigns with **goals** of **less than $1,000
 
 Furthermore, as the goal amount increases its rate of success decreases, until the $30,000 range.  At which point the success rebounds, but then crashes back down at the $45,000+ range. 
 
-Louise's goal for *FEVER* was $2,885; and similar to the launch month, this goal range, **$1,000 - $4,999** reported the second-highest success rate (73%).  This range was also the most popular representing 51% of the all "play" campaigns in this dataset (534 of 1,043). Simply put, <mark style="background-color: Yellow">*Louise did not set a bad goal*.</mark> 
+Louise's goal for *FEVER* was $2,885; and similar to the launch month, this goal range, **$1,000 - $4,999** reported the second-highest success rate (73%).  This range was also the most popular representing 51% of the all "play" campaigns in this dataset (534 of 1,043). Simply put, <mark style="background-color: Yellow">***Louise did not set a bad goal***.</mark> 
 
 
 ### Limitations of the Dataset  
@@ -116,4 +116,4 @@ Louise's FEVER campaign was 28 days and this quick analysis confirms she picked 
 
 Based on this quick analysis, it appears that the **fail rate** is highest with **0-25 backers**; Louise only had 10.
 
-Clearly furter investigation is needed; it appears that Louise may have launched her campaign in an appropriate month and set an appropriate goal and duration of campaign, but it fell short on number of backers.  Why this ocurred requires additional data outside the scope of this dataset. 
+Clearly further investigation is needed; it appears that Louise may have launched her campaign in an appropriate month and set an appropriate goal and duration of campaign, but it fell short on number of backers.  Why this ocurred requires additional data outside the scope of this dataset. 
